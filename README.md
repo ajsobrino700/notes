@@ -13,3 +13,7 @@ This repository is very simple. We can find some link to other repository or oth
 
 ### Git Articles and Notes
 - [Improve monorepo](https://www.git-tower.com/blog/git-performance/)
+
+## Languages programming
+
+- [Modern CPP Programing](https://github.com/federico-busato/Modern-CPP-Programming).
