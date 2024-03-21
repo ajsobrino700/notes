@@ -20,3 +20,8 @@ This repository is very simple. We can find some link to other repository or oth
 ## Languages programming
 
 - [Modern CPP Programing](https://github.com/federico-busato/Modern-CPP-Programming).
+
+## My notes
+
+- [dot files](./dotfiles).
+- [asdf](./asdf).
