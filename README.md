@@ -25,3 +25,4 @@ This repository is very simple. We can find some link to other repository or oth
 
 - [dot files](./dotfiles).
 - [asdf](./asdf).
+- [pass](./pass).
