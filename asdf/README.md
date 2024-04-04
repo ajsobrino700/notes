@@ -14,7 +14,7 @@ Each language or tool need a plugin to manage its, the follow command list the p
 There is a list with every plugins in the [index](https://github.com/asdf-vm/asdf-plugins). We can show all plugin of index
 
 ```zsh
-    asdf plugins list all
+    asdf plugin list all
 ```
 
 When We have installed some plugin we can manage this tool, in other hand we need install a version of this tool. For instance we are going to work with nodejs.
