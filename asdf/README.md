@@ -31,7 +31,7 @@ Above we can find some helpful command of plugins. But we need install a version
 
 ```zsh
     asdf shim-versions node
-    asdf list-add nodejs
+    asdf list all nodejs
     asdf install nodejs <version>
 ```
 
