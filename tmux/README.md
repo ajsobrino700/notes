@@ -9,9 +9,9 @@ We start a session with the next command
 Inside of the session we have a complete terminal. We can exit to the session with **exit** or detach the session without close with **ctr+b|d**.
 If we are outside of session we can do several actions:
 ```zsh
-    \# list sessions.
+    # list sessions.
     tmux list-sessions
     tmux ls
-    \# Inside to session opened.
+    # Inside to session opened.
     tmux attach \# Open the session most recent.
 ```
