@@ -15,3 +15,37 @@ If we are outside of session we can do several actions:
     # Inside to session opened.
     tmux attach \# Open the session most recent.
 ```
+
+Previously we speak about the feature to split the screen in several terminals, the name of those terminals is *panes*.
+It is possible to do split vertical or horizontal. This split will be from the current *pane*, so it is important to have the control of the focussing *pane*.
+We can do a vertical split with **ctr+b | "** and the horizontal split with **ctr+b | %**, finally we can move the focus with the same prefix and the arrow of the keyboard.
+
+Other very important concept is *window*. We can create a window when we are inside of the tmux session, we execute the follow command
+```zsh
+ tmux new-window
+```
+We may view the information about the windows in the below bar. Also we need to move between windows. This action will do with the prefix **ctr+b** and *p* for previous and *n* for next window.
+The way to kill the window is prefix and **&**.
+Finally to finish this subject we are going to change the name of the window. We need to press *prefix* and *,* and we rename the current window. Algo we can change name of the window though comman
+```zsh
+    tmux rename-window <nre-name>
+```
+
+The next topic is manage the sessions in tmux. We can create a new session only with the command *tmux*. In addition we can choose which session we want to open with the next command
+```zsh
+    tmux attacth -t <name> 
+    tmux a -t <name>
+```
+The second option is the same but with the short way. Moroever we can rename the session vert easy with a command
+```zsh
+    tmux rename-session <name>
+```
+The previous command, it changes the current tmux session name. We can change the name with a short way: *prefix* and *\$*.
+A command very important and interesting if you are working with session is *prefix* and *s*. We get a list of the session and we can change between the sessions that we have opened in this moment.
+Finally if we want to move very easy in the sessions we can use *prefix* and *(* or *)*, we change to the next or previous session.
+
+By other hand, something so much important is how can I close a session or panel? It is very simple, the command **exit**.
+
+The last topic in this notes is the customize command and stetic and other similar things.
+
+The file with the settings of tmux is **.tmux.conf**. We will add the configuration that we want for our customize. We can override the default settings and add some new configuration.
