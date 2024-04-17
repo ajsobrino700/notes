@@ -44,7 +44,7 @@ The previous command, it changes the current tmux session name. We can change th
 A command very important and interesting if you are working with session is *prefix* and *s*. We get a list of the session and we can change between the sessions that we have opened in this moment.
 Finally if we want to move very easy in the sessions we can use *prefix* and *(* or *)*, we change to the next or previous session.
 
-By other hand, something so much important is how can I close a session or panel? It is very simple, the command **exit**.
+By other hand, something so much important is how can I close a session or panel? It is very simple, the command **exit**. Other trick relation with that is press *ctr+d**, although it is not a shortcut of tmux is a terminal trick.
 
 The last topic in this notes is the customize command and stetic and other similar things.
 
