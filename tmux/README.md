@@ -1,5 +1,7 @@
 # tmux
 
+The first thing is that, there is some resources on the internet very interesting. For example [cheat sheet](https://tmuxcheatsheet.com) or tutorial on youtube.
+
 Tmux is a very interesting tool for command line, we can have a multiplexer terminal. Also we can have a panel, split the screen, windows, sessions and customatize the command and the view with a settings file.
 
 We start a session with the next command
@@ -19,6 +21,7 @@ If we are outside of session we can do several actions:
 Previously we speak about the feature to split the screen in several terminals, the name of those terminals is *panes*.
 It is possible to do split vertical or horizontal. This split will be from the current *pane*, so it is important to have the control of the focussing *pane*.
 We can do a vertical split with **ctr+b | "** and the horizontal split with **ctr+b | %**, finally we can move the focus with the same prefix and the arrow of the keyboard.
+We can change the size of our pane, it is very easy, we use the prefix and **alt+arrow** depends of the direction of the arrow the pane will resize in this direction.
 
 Other very important concept is *window*. We can create a window when we are inside of the tmux session, we execute the follow command
 ```zsh
@@ -49,3 +52,8 @@ By other hand, something so much important is how can I close a session or panel
 The last topic in this notes is the customize command and stetic and other similar things.
 
 The file with the settings of tmux is **.tmux.conf**. We will add the configuration that we want for our customize. We can override the default settings and add some new configuration.
+
+The first interesting setting is activate the mouse mood
+```zsh
+    set -g mouse on
+```
