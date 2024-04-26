@@ -12,6 +12,7 @@ This repository is very simple. We can find some link to other repository or oth
 - [the art of command line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-es.md)
 - [How to secure a linux server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server#disable-root-login)
 - [Linux command cheat sheet for linux admin](https://reconshell.com/best-linux-commands-cheat-sheet-for-linux-admin/)
+- [Learning vim, spanish notes](https://victorhck.gitbook.io/aprende-vim)
 
 ## Interviews 
 
@@ -27,7 +28,7 @@ This repository is very simple. We can find some link to other repository or oth
 
 - [Modern CPP Programing](https://github.com/federico-busato/Modern-CPP-Programming).
 
-## Katas or code challende
+## Katas or code challenge
 
 - [LeetCode](https://leetcode.com).
 - [Exercism](https://exercism.org).
