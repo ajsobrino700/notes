@@ -51,9 +51,46 @@ By other hand, something so much important is how can I close a session or panel
 
 The last topic in this notes is the customize command and stetic and other similar things.
 
+## Configuration file
+
 The file with the settings of tmux is **.tmux.conf**. We will add the configuration that we want for our customize. We can override the default settings and add some new configuration.
 
 The first interesting setting is activate the mouse mood
 ```zsh
     set -g mouse on
 ```
+The *clipboard* is deactivate by default then we need to change this setting
+```zsh
+     set -g set-clipboard on
+```
+Other setting for we feel comfortable, it is reorder and set the start index in one.
+```zsh
+    set -g base-index 1
+    set -g pane-base-index 1
+    set-window-option -g pane-base-index 1
+    set-option -g renumber-windows on
+```
+
+Also we have added a configuration to move among panes with the command of vim
+```zsh
+    bind h select-pane -L
+    bind j select-pane -D
+    bind k select-pane -U
+    bind l select-pane -R
+```
+
+I like **neovim**, for this reason and active the configuration for *copy-mode* with vi command.
+```zsh
+    set-window-option -g mode-keys vi
+    bing 'v' copy-mode
+```
+Therefore we start the copy mode with *prefix+v* and we can work inside of this mode with the follow command:
+
+- h j k l to move between the text (like a vi).
+- q is to exit of the copy mode.
+- space starts the selection text.
+- enter copy the text.
+- esc clear the selection text.
+
+
+Finally we can add a lot of plugin and there is a plugin manager for tmux plugin. You can change the visual aspect, add feature,...
