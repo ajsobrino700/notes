@@ -13,6 +13,7 @@ This repository is very simple. We can find some link to other repository or oth
 - [How to secure a linux server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server#disable-root-login)
 - [Linux command cheat sheet for linux admin](https://reconshell.com/best-linux-commands-cheat-sheet-for-linux-admin/)
 - [Learning vim, spanish notes](https://victorhck.gitbook.io/aprende-vim)
+- [Rust Comprehnsive](https://google.github.io/comprehensive-rust/es/#te-damos-la-bienvenida-a-comprehensive-rust-)
 
 ## Interviews 
 
