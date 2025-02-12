@@ -15,7 +15,7 @@ This repository is very simple. We can find some link to other repository or oth
 - [Learning vim, spanish notes](https://victorhck.gitbook.io/aprende-vim)
 - [Rust Comprehnsive](https://google.github.io/comprehensive-rust/es/#te-damos-la-bienvenida-a-comprehensive-rust-)
 
-## Interviews 
+## Interviews
 
 - [Grokking Modern System Design Interview for Engineers & Managers](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers).
 - [Interviewing](https://interviewing.io/).
@@ -55,3 +55,4 @@ This repository is very simple. We can find some link to other repository or oth
 - [asdf](./asdf).
 - [pass](./pass).
 - [tmux](./tmux).
+- Zenity/dialog and PS3 (select in option) bash
